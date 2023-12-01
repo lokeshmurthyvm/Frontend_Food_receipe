@@ -31,6 +31,10 @@ const Navbar = () => {
               <MdFoodBank />
               <span className='navbar-brand-text fw-7'>FastEat.</span>
             </Link>
+            <Link to = "/login"className='navbar-brand fw-3 fs-22 flex align-center'>Login
+            </Link>
+            <Link to = "/signup"className='navbar-brand fw-3 fs-22 flex align-center'>Signup
+            </Link>
             <div className='navbar-btns flex align-center'>
               <button type = "button" className='navbar-show-btn text-white' onClick={() => openSidebar()}>
                 <IoMdMenu size = {27} />
